@@ -1,0 +1,96 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+
+/*
+@font-face{
+	src: url(../fonts/Lato-Regular.ttf);
+	font-family: Lato-Regular;
+}
+@font-face{
+	src: url(../fonts/Lato-Bold.ttf);
+	font-family: Lato-Bold;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	font-family: Lato-Bold;
+	font-size: 30px;
+	font-weight: 700;
+	color: red;
+}
+p{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+}
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+/*header start*/
+header{
+	/*border: 1px solid black;*/
+	padding: 30px 0;
+}
+.wrapper{
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo{
+	width: 13%;
+	float: left;
+	margin-top: 3px;
+	/*border: 1px solid red;*/
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	width: 70%;
+	/*border: 1px solid red;*/
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	margin: 0 50px;
+	padding: 10px 0;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: .3s;
+	border: 1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom: 1px solid #626262;
+}
+/*header end*/
+
+/*banner start*/
+.banner{}
+.b_img {
+	width: 100%;
+}
+/*banner start*/
